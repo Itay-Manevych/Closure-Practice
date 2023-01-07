@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p{
+    word-break: break-all; 
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+#popupBtn{
+    border-radius: 10%;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+    background-color: black;
+    border-color: black;    
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+#innerBtn{
+    border-radius: 10%;
+    background-color: black;
+    border-color: black;
+    color:white;
+    outline: none;
+    cursor: pointer;
+}
+
+#popup{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    padding-top: 2rem;
+    border-radius: 5%;
+    border-style: solid;
+    background-color: white;
+    border-color: black;
+}
+
+#htmlContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: break-word;
+    gap: -5px;
+}
+
+#img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+#closeButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0.25rem;
+    top: 0.25rem;
+    background-color:white;
+    border-style: none;
+    cursor: pointer;
+}
+
+#imgCloseButton{
+    width: 1.25rem;
+    height: 1.25rem;
+}
